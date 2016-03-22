@@ -16,98 +16,100 @@
 
     <body>
         <!-- Bandeau de navigation -->
-        <nav class="navbar navbar-default">
+        <nav class="navbar navbar-inverse navbar-fixed-top">
             <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="navbar-brand" href="index.html"> LOGO </a>
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                        <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#"> LOGO </a>
+                </div>
+
+                <div class="collapse navbar-collapse" id="navbar">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <!-- pour indiquer que c'est l'onglet actuel, il faut
+                                 faire un <li class="active">
+                              -->
+
+                            <a href="#"> Spectacles </a>
+                        </li>
+                        <li>
+                            <a href="./musique.html"> Musique </a>
+                        </li>
+                        <li>
+                            <a href="#"> Cinéma </a>
+                        </li>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Événements <span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="#">Exposition</a></li>
+                                <li><a href="#">Rendez-vous</a></li>
+                                <li><a href="#">Tendance Europe</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Hortillonage Amiens 2016</a></li>
+                                <li role="separator" class="divider"></li>
+                                <li><a href="#">Production MCA</a></li>
+                                <li><a href="#">Label bleu</a></li>
+                                <li><a href="#">Éditions Trois Cailloux</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
             </div>
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <li>
-                        <!-- pour indiquer que c'est l'onglet actuel, il faut
-                             faire un <li class="active">
-                          -->
-
-                        <a href="#"> Spectacles </a>
-                    </li>
-                    <li class="active">
-                        <a href="#"> Musique </a>
-                    </li>
-                    <li>
-                        <a href="#"> Cinéma </a>
-                    </li>
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"> Événements <span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="#">Exposition</a></li>
-                            <li><a href="#">Rendez-vous</a></li>
-                            <li><a href="#">Tendance Europe</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Hortillonage Amiens 2016</a></li>
-                            <li role="separator" class="divider"></li>
-                            <li><a href="#">Production MCA</a></li>
-                            <li><a href="#">Label bleu</a></li>
-                            <li><a href="#">Éditions Trois Cailloux</a></li>
-                        </ul>
-                    </li>
-                </ul>
-
         </nav>
 
-
-        <!-- Corps page musique-->
         <div class="container">
-            <div class="row">
-                <div class="col-md-3">
-                    <a href="#" >L'Autre Hiver</a>
-                    <img src="../img/zic01.jpg" alt="img-responsive" class="img-circle">
-                </div>
-                <div class="col-md-3">
-                    <a href="#" >Les Siècles</a>
-                    <img src="../img/zic02.jpg" alt="" class="img-circle">
-                </div>
-                <div class="col-md-3">
-                    <a href="#" >Monsieur de Pourceaugnac</a>
-                    <img src="../img/zic03.jpg" alt="" class="img-circle">
-                </div>
-                <div class="col-md-3">
-                    <a href="#" >Avishai Cohen Trio</a>
-                    <img src="../img/zic04.jpg" alt="" class="img-circle">
-                </div>
-                <div class="col-md-3">
-                    <a href="#" >Arno</a>
-                    <img src="../img/zic05.jpg" alt="" class="img-circle">
-                </div>
-            <!-- </div>
-        
-            <div class="row"> -->
-                <div class="col-md-3">
-                    <a href="#" >Zic Zazou</a>
-                    <img src="../img/zic06.jpg" alt="" class="img-circle">
-                </div>
-                <div class="col-md-3">
-                    <a href="#" >Djelimady Tounkara</a>
-                    <img src="../img/zic07.jpg" alt="" class="img-circle">
-                </div>
-                <div class="col-md-3">
-                    <a href="#" >Hilary Hahn violon - Cory Smythe piano</a>
-                    <img src="../img/zic08.jpg" alt="" class="img-circle">
-                </div>
-                <div class="col-md-3">
-                    <a href="#" >Orchestre de Picardie</a>
-                    <img src="../img/zic09.jpg" alt="" class="img-circle">
-                </div>
-                <div class="col-md-3">
-                    <a href="#" >Orchestre de Picardie</a>
-                    <img src="../img/zic10.jpg" alt="" class="img-circle">
+            <!-- Corps page musique-->
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3">
+                        <a href="#" >L'Autre Hiver</a>
+                        <img src="../img/zic01.jpg" alt="img-responsive" class="img-circle">
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" >Les Siècles</a>
+                        <img src="../img/zic02.jpg" alt="" class="img-circle">
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" >Monsieur de Pourceaugnac</a>
+                        <img src="../img/zic03.jpg" alt="" class="img-circle">
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" >Avishai Cohen Trio</a>
+                        <img src="../img/zic04.jpg" alt="" class="img-circle">
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" >Arno</a>
+                        <img src="../img/zic05.jpg" alt="" class="img-circle">
+                    </div>
+                <!-- </div>
+
+                <div class="row"> -->
+                    <div class="col-md-3">
+                        <a href="#" >Zic Zazou</a>
+                        <img src="../img/zic06.jpg" alt="" class="img-circle">
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" >Djelimady Tounkara</a>
+                        <img src="../img/zic07.jpg" alt="" class="img-circle">
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" >Hilary Hahn violon - Cory Smythe piano</a>
+                        <img src="../img/zic08.jpg" alt="" class="img-circle">
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" >Orchestre de Picardie</a>
+                        <img src="../img/zic09.jpg" alt="" class="img-circle">
+                    </div>
+                    <div class="col-md-3">
+                        <a href="#" >Orchestre de Picardie</a>
+                        <img src="../img/zic10.jpg" alt="" class="img-circle">
+                    </div>
                 </div>
             </div>
         </div>
