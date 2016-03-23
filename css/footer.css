@@ -15,9 +15,9 @@ body {
   width: 100%;
   /* Set the fixed height of the footer here */
   height: 55px;
-  margin-top: 20px;
   background-color: #EEE;
   padding-top: 20px;
+  margin: 0 auto -60px
 }
 
 
@@ -32,7 +32,7 @@ body {
 .navbar-brand > img {
   display: block;
   height: 25px;
-  width: 25px;  
+  width: 25px;
 }
 
 .notre_div {
