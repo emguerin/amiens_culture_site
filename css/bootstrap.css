@@ -5212,8 +5212,7 @@ a.thumbnail.active {
 }
 .media {
   margin-top: 15px;
-  /* background-color: #443122; */
-  background-color: #87060d;
+  background-color: #443122;
   padding: 1%;
   width: 75%;
   margin-left: auto;
