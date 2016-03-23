@@ -3120,6 +3120,9 @@ fieldset[disabled] .btn-default.focus {
   color: #fff;
   background-color: #337ab7;
   border-color: #2e6da4;
+  margin-left: auto;
+  margin-right: auto;
+
 }
 .btn-primary:focus,
 .btn-primary.focus {
@@ -5006,7 +5009,7 @@ a.badge:focus {
   padding: 4px;
   margin-bottom: 20px;
   line-height: 1.42857143;
-  background-color: #fff;
+  background-color: #337ab7;
   border: 1px solid #ddd;
   border-radius: 4px;
   -webkit-transition: border .2s ease-in-out;
@@ -5024,8 +5027,11 @@ a.thumbnail.active {
   border-color: #337ab7;
 }
 .thumbnail .caption {
+  height: 150px;
   padding: 9px;
   color: #333;
+  text-align: center;
+  background-color: #f2f2f2
 }
 .alert {
   padding: 15px;
@@ -6756,5 +6762,9 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+.aInThumb {
+  text-align: center;
+  color: #337ab7;
 }
 /*# sourceMappingURL=bootstrap.css.map */
