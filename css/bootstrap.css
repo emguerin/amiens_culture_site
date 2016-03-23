@@ -5033,6 +5033,10 @@ a.thumbnail.active {
   text-align: center;
   background-color: #f2f2f2
 }
+.thumbnail img {
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
 .alert {
   padding: 15px;
   margin-bottom: 20px;
@@ -5204,6 +5208,19 @@ a.thumbnail.active {
 }
 .media {
   margin-top: 15px;
+  background-color: #ff0a94;
+  padding: 1%;
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+}
+.media-left {
+  background-color: blue;
+  border-radius: 5px;
+}
+.media-left .img-rounded {
+  vertical-align: middle;
 }
 .media:first-child {
   margin-top: 0;
@@ -5215,6 +5232,9 @@ a.thumbnail.active {
 }
 .media-body {
   width: 10000px;
+  padding: 1em;  
+  background-color: yellow;
+  border-radius: 5px;
 }
 .media-object {
   display: block;

@@ -56,10 +56,10 @@ body {
 
 .div_vigi {
   background-color: #EEE;
-  border: 1px solid #ddd;
+  border: 1px solid red;
   border-radius: 15px;
   margin-bottom: 25px;
-  height: 300px;
+  height: 100%;
   padding: 10px;
 }
 
@@ -68,4 +68,5 @@ body {
   margin-bottom: 10px;
   float: left;
   margin-right: 30px;
+  vertical-align: center;
 }
