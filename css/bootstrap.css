@@ -1086,7 +1086,6 @@ body {
   font-size: 14px;
   line-height: 1.42857143;
   color: #333;
-  background-color: #fff;
 }
 input,
 button,
@@ -5006,12 +5005,12 @@ a.badge:focus {
 }
 .thumbnail {
   display: block;
-  padding: 4px;
+  padding: 1em;
   margin-bottom: 20px;
   line-height: 1.42857143;
   background-color: #337ab7;
   border: 1px solid #ddd;
-  border-radius: 4px;
+  border-radius: 8px;
   -webkit-transition: border .2s ease-in-out;
        -o-transition: border .2s ease-in-out;
           transition: border .2s ease-in-out;
@@ -5030,8 +5029,13 @@ a.thumbnail.active {
   height: 150px;
   padding: 9px;
   color: #333;
+  border-radius: 8px;
   text-align: center;
   background-color: #f2f2f2
+}
+.aInThumb {
+  text-align: center;
+  color: #337ab7;
 }
 .thumbnail img {
   margin-top: 1em;
@@ -5208,15 +5212,12 @@ a.thumbnail.active {
 }
 .media {
   margin-top: 15px;
-  background-color: #ff0a94;
+  /* background-color: #443122; */
+  background-color: #87060d;
   padding: 1%;
-  width: 70%;
+  width: 75%;
   margin-left: auto;
   margin-right: auto;
-  border-radius: 5px;
-}
-.media-left {
-  background-color: blue;
   border-radius: 5px;
 }
 .media-left .img-rounded {
@@ -5230,14 +5231,39 @@ a.thumbnail.active {
   overflow: hidden;
   zoom: 1;
 }
+@media (max-width: 560px) {
+  .media {
+    width: 100%;
+  }
+  .media-left {
+    padding-left: 2em;
+    padding-right: auto;
+  }
+  .media-left .img-rounded {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 2px;
+  }
+  .media-body {
+    max-width: 100%;
+    float: left;
+  }
+}
 .media-body {
   width: 10000px;
-  padding: 1em;  
-  background-color: yellow;
+  padding: 1em;
+  background-color: white;  
   border-radius: 5px;
 }
+.media-body h4 {
+  font-weight: bold;
+  color: #ff6e00;
+}
 .media-object {
-  display: block;
+  display: block;  
+  margin-left: auto;
+  margin-right: auto;
 }
 .media-object.img-thumbnail {
   max-width: none;
@@ -6783,8 +6809,13 @@ button.close {
     display: none !important;
   }
 }
-.aInThumb {
-  text-align: center;
-  color: #337ab7;
+
+.navbar-header {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: blue;
 }
+
 /*# sourceMappingURL=bootstrap.css.map */
